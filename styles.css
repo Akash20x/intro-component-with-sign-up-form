@@ -95,7 +95,6 @@ main {
 
 input, button {
     padding: 1rem 1.5rem;
-    margin-bottom: 1rem;
     border: 1px solid  var(--grayish-blue);
     border-radius: 5px;
     font-weight: 600;
@@ -162,11 +161,18 @@ button:hover {
 
 .not-valid .error-msg{
     display: block;
+    padding-top: 1.5rem;
+    margin-bottom: 0rem;
 }
+
 
 .not-valid .form__input{
     border: 2px solid var(--red);
     color: var(--red);
+}
+
+.not-valid .input-field{
+    margin-top: -2px;
 }
 
 
